@@ -1,0 +1,50 @@
+﻿<Window x:Class="Storage_Admin_App.Windows.Create"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Storage_Admin_App.Windows"
+        mc:Ignorable="d"
+        Title="Add New one Info about your website" Height="493.902" Width="412.861" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="125*"/>
+            <ColumnDefinition Width="201*"/>
+            <ColumnDefinition Width="81*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="59*"/>
+            <RowDefinition Height="63*"/>
+            <RowDefinition Height="51*"/>
+            <RowDefinition Height="58*"/>
+            <RowDefinition Height="58*"/>
+            <RowDefinition Height="58*"/>
+            <RowDefinition Height="58*"/>
+            <RowDefinition Height="58*"/>
+        </Grid.RowDefinitions>
+        <Label Content="Site Name" Grid.Row="0" Grid.Column="0"  HorizontalAlignment="Left" Margin="10,16,0,0" VerticalAlignment="Top" FontSize="16" Height="32" Width="92"/>
+        <TextBox x:Name="name_txt" Grid.Row="0" TextWrapping="Wrap" FontSize="20" Margin="1.2,0,80.4,2.2" Grid.Column="1" Grid.ColumnSpan="2"/>
+        <Label Content="Email" HorizontalAlignment="Left" Margin="10,3.8,0,0" VerticalAlignment="Top" FontSize="16" Grid.Row="1" Height="32" Width="92"/>
+        <TextBox x:Name="email_txt" Grid.Column="1" Margin="1.2,1.8,80.4,2.4" TextWrapping="Wrap" FontSize="20" Grid.Row="1" Grid.ColumnSpan="2"/>
+        <Label Content="Login" HorizontalAlignment="Left" Margin="10,9.6,0,0" VerticalAlignment="Top" FontSize="16" Grid.Row="2" Height="32" Width="92"/>
+        <TextBox x:Name="login_txt" HorizontalAlignment="Left" Height="13" Margin="150.2,19.6,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="25" FontSize="20" Grid.Row="2" Grid.Column="1" RenderTransformOrigin="0.5,0.5">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <Label Content="Password" HorizontalAlignment="Left" Margin="10,10.4,0,0" VerticalAlignment="Top" FontSize="16" Grid.Row="3" Height="32" Width="92"/>
+        <TextBox x:Name="paswd_txt" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="30.2,9.4,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="20" Grid.Row="3"/>
+        <Label Content="URL" HorizontalAlignment="Left" Margin="10,11,0,0" VerticalAlignment="Top" FontSize="16" Grid.Row="4" Height="32" Width="92"/>
+        <TextBox x:Name="url_txt" HorizontalAlignment="Left" Height="23" Margin="30.2,11,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="20" Grid.Row="4" Grid.Column="1" />
+        <Label Content="Phone" HorizontalAlignment="Left" Margin="10,10.6,0,0" VerticalAlignment="Top" FontSize="16" Grid.Row="5" Height="32" Width="92"/>
+        <TextBox x:Name="phone_txt" Grid.Column="1" HorizontalAlignment="Left" Margin="30.2,9.6,0,24.8" TextWrapping="Wrap" Width="120" FontSize="20" Grid.Row="5"/>
+        <Label Content="Coments" HorizontalAlignment="Left" Margin="10,11.2,0,0" VerticalAlignment="Top" FontSize="16" Grid.Row="6" Height="32" Width="92"/>
+        <TextBox x:Name="coments_txt" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="30.2,10.2,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontSize="20" Grid.Row="6"/>
+        <Button x:Name="text_btn" Content="Add New" Margin="1.2,57.2,0,0" Grid.Row="6" VerticalAlignment="Top" FontSize="20" Height="56" Grid.RowSpan="2" Grid.Column="1" Click="text_btn_Click" Grid.ColumnSpan="2" HorizontalAlignment="Left" Width="200"/>
+    </Grid>
+</Window>
