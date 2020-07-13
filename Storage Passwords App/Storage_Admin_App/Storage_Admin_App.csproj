@@ -82,10 +82,14 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Model\Connection.cs" />
+    <Compile Include="Model\DeleteRecord.cs" />
     <Compile Include="Model\ReadFromDatabase.cs" />
     <Compile Include="Model\WorkArea.cs" />
     <Compile Include="Windows\Create.xaml.cs">
       <DependentUpon>Create.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\UsersInfo.xaml.cs">
+      <DependentUpon>UsersInfo.xaml</DependentUpon>
     </Compile>
     <Compile Include="Windows\WorkAreas.xaml.cs">
       <DependentUpon>WorkAreas.xaml</DependentUpon>
@@ -103,6 +107,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="Windows\Create.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\UsersInfo.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

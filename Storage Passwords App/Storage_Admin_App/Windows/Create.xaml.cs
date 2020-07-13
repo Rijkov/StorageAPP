@@ -3,6 +3,7 @@
     using System;
     using System.Collections.Generic;
     using System.Linq;
+    using System.Runtime.CompilerServices;
     using System.Windows;
     using System.Windows.Documents;
     using Storage_Admin_App.Model;
@@ -49,6 +50,7 @@
 
         void EditArea()
         {
+
             int index = (this.Owner as WorkAreas).lbox.Items.IndexOf(this.update_Area);
             int idTable = update_Area.Id;
 
@@ -103,6 +105,7 @@
                 db.SaveChanges();
                 MessageBox.Show($"SiteName-{name_txt.Text} was add sucsesfule");
                 name_txt.Text = login_txt.Text = paswd_txt.Text = email_txt.Text = url_txt.Text = coments_txt.Text = phone_txt.Text = "";
+                
             }
         }
     }

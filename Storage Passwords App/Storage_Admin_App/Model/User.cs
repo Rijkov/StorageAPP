@@ -12,5 +12,9 @@
         public int Phone { get; set; }
         public string Role { get; set; }
         public System.DateTime Date_Registr { get; set; }
+        public override string ToString()
+        {
+            return $"{Id} | {Last_Name} | {First_Name} | {Age} | {Login} | {Password} | {Email} | {Phone} | {Role} | {Date_Registr}";
+        }
     }
 }

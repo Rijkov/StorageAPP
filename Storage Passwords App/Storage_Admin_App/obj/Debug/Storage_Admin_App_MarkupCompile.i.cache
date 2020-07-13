@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Alex\source\repos\Storage Passwords App\Storage_Admin_App\obj\Debug\
+C:\Users\Alex\source\repos\StorageAPP\Storage Passwords App\Storage_Admin_App\obj\Debug\
 Storage_Admin_App
 none
 false
 DEBUG;TRACE
-C:\Users\Alex\source\repos\Storage Passwords App\Storage_Admin_App\App.xaml
-3-644924006
+C:\Users\Alex\source\repos\StorageAPP\Storage Passwords App\Storage_Admin_App\App.xaml
+5535132950
 21307025056
-131806617216
-171446049634
-MainWindow.xaml;Windows\Create.xaml;Windows\WorkAreas.xaml;
+161273895812
+1736819535
+MainWindow.xaml;Windows\Create.xaml;Windows\EditUser.xaml;Windows\UsersInfo.xaml;Windows\WorkAreas.xaml;
 
-False
+True
 

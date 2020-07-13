@@ -6,11 +6,11 @@
 
     class ReadFromDatabase
     {
-        static SqlConnection conn;
-        static SqlCommand cmd;
-        static SqlDataReader dreder;
         public static IEnumerable<WorkArea> ShowAllAreas()
         {
+            var conn = Connection.conn;
+            var cmd = Connection.cmd;
+            var dreder = Connection.dreder;
             List<WorkArea> list = new List<WorkArea>();
             using (conn = new SqlConnection(Connection.connectstr))
             {
@@ -38,6 +38,38 @@
             }
         }
 
+
+        public static IEnumerable<User> ShowAllUsers()
+        {
+            var conn = Connection.conn;
+            var cmd = Connection.cmd;
+            var dreder = Connection.dreder;
+            List<User> list = new List<User>();
+            using (conn = new SqlConnection(Connection.connectstr))
+            {
+                conn.Open();
+                using (cmd = new SqlCommand("select * from Users", conn))
+                {
+                    dreder = cmd.ExecuteReader();
+                    while (dreder.Read())
+                    {
+                        User area = new User();
+                        area.Last_Name = dreder["Last_Name"].ToString();
+                        area.First_Name = dreder["First_Name"].ToString();
+                        area.Age = Convert.ToInt32(dreder["Age"]);
+                        area.Date_Registr = Convert.ToDateTime(dreder["Date_Registr"].ToString());
+                        area.Email = dreder["Email"].ToString();
+                        area.Login = dreder["Login"].ToString();
+                        area.Password = dreder["Password"].ToString();
+                        area.Phone = Convert.ToInt32(dreder["Phone"].ToString());
+                        area.Role = dreder["Role"].ToString();
+                        list.Add(area);
+
+                    }
+                }
+                return list;
+            }
+        }
 
     }
 }
