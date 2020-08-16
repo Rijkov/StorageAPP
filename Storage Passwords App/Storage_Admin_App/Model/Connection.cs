@@ -4,9 +4,10 @@
 
     class Connection
     {
-        public static string connectstr = System.Configuration.ConfigurationManager.ConnectionStrings["connect"].ConnectionString;
-        public static SqlConnection conn;
-        public static SqlCommand cmd;
-        public static SqlDataReader dreder;
+        public static string connectstr = 
+            System.Configuration.ConfigurationManager.ConnectionStrings["connection"].ConnectionString;
+        public static SqlConnection conn = null;
+        public static SqlCommand cmd = null;
+        public static SqlDataReader dreder = null;
     }
 }

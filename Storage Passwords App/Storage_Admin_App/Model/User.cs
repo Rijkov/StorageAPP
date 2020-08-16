@@ -11,6 +11,7 @@
         public string Email { get; set; }
         public int Phone { get; set; }
         public string Role { get; set; }
+        public int Id_WorkArea { get; set; }
         public System.DateTime Date_Registr { get; set; }
         public override string ToString()
         {

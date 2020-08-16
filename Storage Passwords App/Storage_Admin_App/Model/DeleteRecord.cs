@@ -1,23 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Data.SqlClient;
-
-namespace Storage_Admin_App.Model
+﻿namespace Storage_Admin_App.Model
 {
+    using System.Data.SqlClient;
+
     class DeleteRecord
     {
         public static string DeleteInfo(WorkArea d)
-        {
-            var conn = Connection.conn;
-            var cmd = Connection.cmd;
+        {         
             string msg = "";
-            using (conn = new SqlConnection(Connection.connectstr))
+            using (var conn = Connection.conn = new SqlConnection(Connection.connectstr))
             {
                 conn.Open();
-                using (cmd = new SqlCommand($"delete from WorkAreas where id = {d.Id}", conn))
+                using (var cmd = Connection.cmd = new SqlCommand($"delete from WorkAreas where id = {d.Id}", conn))
                 {
                     int res = cmd.ExecuteNonQuery();
 

@@ -1,20 +1,35 @@
-﻿<Window x:Class="Storage_Admin_App.Windows.WorkAreas"
+﻿<Window x:Name="Load" x:Class="Storage_Admin_App.Windows.WorkAreas"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Storage_Admin_App.Windows"
         mc:Ignorable="d"
-        Title="WorkArea" Height="450" Width="800" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded">
+        Title="WorkArea" Height="450" Width="800" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded" Closing="Load_Closing">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="30*"/>
+            <ColumnDefinition Width="250*"/>
+            <ColumnDefinition Width="35*"/>
+            <ColumnDefinition Width="173*"/>
+            <ColumnDefinition Width="35*"/>
+            <ColumnDefinition Width="250*"/>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="30*"/>
+        </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="87.2"/>
-            <RowDefinition/>
+            <RowDefinition Height="48.4"/>
+            <RowDefinition Height="43.6"/>
+            <RowDefinition Height="8*"/>
+            <RowDefinition Height="36*"/>
+            <RowDefinition Height="9*"/>
+            <RowDefinition Height="275*"/>
         </Grid.RowDefinitions>
-        <ListBox x:FieldModifier="public" ItemsSource="{Binding List}" x:Name="lbox" Grid.Row="1" HorizontalAlignment="Left" Margin="0,9.8,-0.4,0" Width="794" FontSize="16" FontFamily="Palatino Linotype" FontWeight="Bold"/>
-        <Button x:Name="add_btn" Content="Add New Info" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="264" Height="37" FontFamily="Palatino Linotype" FontSize="22" FontWeight="Bold" Click="add_btn_Click"/>
-        <Button x:Name="edit_btn" Content="Edit Info" HorizontalAlignment="Left" Margin="314,10,0,0" VerticalAlignment="Top" Width="175" Height="37" FontFamily="Palatino Linotype" FontSize="22" FontWeight="Bold" Click="edit_btn_Click"/>
-        <Button x:Name="delete_btn" Content="Delete" HorizontalAlignment="Left" Margin="530,10,0,0" VerticalAlignment="Top" Width="254" Height="37" FontFamily="Palatino Linotype" FontSize="22" FontWeight="Bold" Click="delete_btn_Click"/>
-        <Button x:Name="users_btn" Content="Users Info" HorizontalAlignment="Left" Margin="314,52,0,0" VerticalAlignment="Top" Width="175" Height="37" FontFamily="Palatino Linotype" FontSize="22" FontWeight="Bold"  Grid.RowSpan="2" Click="users_btn_Click"/>
+        <ListBox x:FieldModifier="public" ItemsSource="{Binding List}" x:Name="lbox" Grid.Row="5" FontSize="16" FontFamily="Palatino Linotype" FontWeight="Bold" Grid.ColumnSpan="8"/>
+        <Button x:Name="add_btn" Content="Add New Info" FontFamily="Palatino Linotype" FontSize="22" FontWeight="Bold" Click="add_btn_Click" Grid.Row="1" Grid.Column="1" />
+        <Button x:Name="edit_btn" Content="Edit Info" FontFamily="Palatino Linotype" FontSize="22" FontWeight="Bold" Click="edit_btn_Click" Grid.Row="1" Grid.Column="3" />
+        <Button x:Name="delete_btn" Content="Delete" FontFamily="Palatino Linotype" FontSize="22" FontWeight="Bold" Click="delete_btn_Click" Grid.Row="1" Grid.Column="5" />
+        <Button x:Name="users_btn" Content="Users Info" FontFamily="Palatino Linotype" FontSize="22" FontWeight="Bold" Click="users_btn_Click" Grid.Row="3" Grid.Column="3" />
+        <Label Content="Label" x:Name="welcome_lbl" HorizontalAlignment="Left" Margin="98.4,3,0,0" VerticalAlignment="Top" FontSize="22" FontFamily="Palatino Linotype" FontWeight="Bold" Foreground="#FF00B32F" Width="575" Grid.Column="1" Grid.ColumnSpan="5"/>
     </Grid>
 </Window>

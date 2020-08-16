@@ -51,3 +51,63 @@ C:\Users\Alex\source\repos\StorageAPP\Storage Passwords App\Storage_Admin_App\ob
 C:\Users\Alex\source\repos\StorageAPP\Storage Passwords App\Storage_Admin_App\obj\Debug\Storage_Admin_App.pdb
 C:\Users\Alex\source\repos\StorageAPP\Storage Passwords App\Storage_Admin_App\obj\Debug\Windows\UsersInfo.g.cs
 C:\Users\Alex\source\repos\StorageAPP\Storage Passwords App\Storage_Admin_App\obj\Debug\Windows\UsersInfo.baml
+D:\Software Development\C# All Persons\Саша(Asp .NET MVC)(Одесса)\Storage Passwords App\Storage_Admin_App\bin\Debug\Data\Storage_DB.mdf
+D:\Software Development\C# All Persons\Саша(Asp .NET MVC)(Одесса)\Storage Passwords App\Storage_Admin_App\bin\Debug\Data\Storage_DB_log.ldf
+D:\Software Development\C# All Persons\Саша(Asp .NET MVC)(Одесса)\Storage Passwords App\Storage_Admin_App\bin\Debug\Storage_Admin_App.exe.config
+D:\Software Development\C# All Persons\Саша(Asp .NET MVC)(Одесса)\Storage Passwords App\Storage_Admin_App\bin\Debug\Storage_Admin_App.exe
+D:\Software Development\C# All Persons\Саша(Asp .NET MVC)(Одесса)\Storage Passwords App\Storage_Admin_App\bin\Debug\Storage_Admin_App.pdb
+D:\Software Development\C# All Persons\Саша(Asp .NET MVC)(Одесса)\Storage Passwords App\Storage_Admin_App\bin\Debug\EntityFramework.dll
+D:\Software Development\C# All Persons\Саша(Asp .NET MVC)(Одесса)\Storage Passwords App\Storage_Admin_App\bin\Debug\EntityFramework.SqlServer.dll
+D:\Software Development\C# All Persons\Саша(Asp .NET MVC)(Одесса)\Storage Passwords App\Storage_Admin_App\bin\Debug\EntityFramework.xml
+D:\Software Development\C# All Persons\Саша(Asp .NET MVC)(Одесса)\Storage Passwords App\Storage_Admin_App\bin\Debug\EntityFramework.SqlServer.xml
+D:\Software Development\C# All Persons\Саша(Asp .NET MVC)(Одесса)\Storage Passwords App\Storage_Admin_App\obj\Debug\Storage_Admin_App.csprojAssemblyReference.cache
+D:\Software Development\C# All Persons\Саша(Asp .NET MVC)(Одесса)\Storage Passwords App\Storage_Admin_App\obj\Debug\MainWindow.g.cs
+D:\Software Development\C# All Persons\Саша(Asp .NET MVC)(Одесса)\Storage Passwords App\Storage_Admin_App\obj\Debug\Windows\Create.g.cs
+D:\Software Development\C# All Persons\Саша(Asp .NET MVC)(Одесса)\Storage Passwords App\Storage_Admin_App\obj\Debug\Windows\UsersInfo.g.cs
+D:\Software Development\C# All Persons\Саша(Asp .NET MVC)(Одесса)\Storage Passwords App\Storage_Admin_App\obj\Debug\Windows\WorkAreas.g.cs
+D:\Software Development\C# All Persons\Саша(Asp .NET MVC)(Одесса)\Storage Passwords App\Storage_Admin_App\obj\Debug\App.g.cs
+D:\Software Development\C# All Persons\Саша(Asp .NET MVC)(Одесса)\Storage Passwords App\Storage_Admin_App\obj\Debug\Storage_Admin_App_Content.g.cs
+D:\Software Development\C# All Persons\Саша(Asp .NET MVC)(Одесса)\Storage Passwords App\Storage_Admin_App\obj\Debug\Storage_Admin_App_MarkupCompile.cache
+D:\Software Development\C# All Persons\Саша(Asp .NET MVC)(Одесса)\Storage Passwords App\Storage_Admin_App\obj\Debug\Storage_Admin_App_MarkupCompile.lref
+D:\Software Development\C# All Persons\Саша(Asp .NET MVC)(Одесса)\Storage Passwords App\Storage_Admin_App\obj\Debug\MainWindow.baml
+D:\Software Development\C# All Persons\Саша(Asp .NET MVC)(Одесса)\Storage Passwords App\Storage_Admin_App\obj\Debug\Windows\Create.baml
+D:\Software Development\C# All Persons\Саша(Asp .NET MVC)(Одесса)\Storage Passwords App\Storage_Admin_App\obj\Debug\Windows\UsersInfo.baml
+D:\Software Development\C# All Persons\Саша(Asp .NET MVC)(Одесса)\Storage Passwords App\Storage_Admin_App\obj\Debug\Windows\WorkAreas.baml
+D:\Software Development\C# All Persons\Саша(Asp .NET MVC)(Одесса)\Storage Passwords App\Storage_Admin_App\obj\Debug\Storage_Admin_App.g.resources
+D:\Software Development\C# All Persons\Саша(Asp .NET MVC)(Одесса)\Storage Passwords App\Storage_Admin_App\obj\Debug\Storage_Admin_App.Properties.Resources.resources
+D:\Software Development\C# All Persons\Саша(Asp .NET MVC)(Одесса)\Storage Passwords App\Storage_Admin_App\obj\Debug\Storage_Admin_App.csproj.GenerateResource.cache
+D:\Software Development\C# All Persons\Саша(Asp .NET MVC)(Одесса)\Storage Passwords App\Storage_Admin_App\obj\Debug\Storage_Admin_App.csproj.CoreCompileInputs.cache
+D:\Software Development\C# All Persons\Саша(Asp .NET MVC)(Одесса)\Storage Passwords App\Storage_Admin_App\obj\Debug\Storage_Admin_App.csproj.CopyComplete
+D:\Software Development\C# All Persons\Саша(Asp .NET MVC)(Одесса)\Storage Passwords App\Storage_Admin_App\obj\Debug\Storage_Admin_App.exe
+D:\Software Development\C# All Persons\Саша(Asp .NET MVC)(Одесса)\Storage Passwords App\Storage_Admin_App\obj\Debug\Storage_Admin_App.pdb
+C:\Users\Alex\Documents\Visual Studio 2019\Storage Passwords App\Storage_Admin_App\bin\Debug\Data\Storage_DB.mdf
+C:\Users\Alex\Documents\Visual Studio 2019\Storage Passwords App\Storage_Admin_App\bin\Debug\Data\Storage_DB_log.ldf
+C:\Users\Alex\Documents\Visual Studio 2019\Storage Passwords App\Storage_Admin_App\bin\Debug\Storage_Admin_App.exe.config
+C:\Users\Alex\Documents\Visual Studio 2019\Storage Passwords App\Storage_Admin_App\bin\Debug\Storage_Admin_App.exe
+C:\Users\Alex\Documents\Visual Studio 2019\Storage Passwords App\Storage_Admin_App\bin\Debug\Storage_Admin_App.pdb
+C:\Users\Alex\Documents\Visual Studio 2019\Storage Passwords App\Storage_Admin_App\bin\Debug\EntityFramework.dll
+C:\Users\Alex\Documents\Visual Studio 2019\Storage Passwords App\Storage_Admin_App\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Alex\Documents\Visual Studio 2019\Storage Passwords App\Storage_Admin_App\bin\Debug\EntityFramework.xml
+C:\Users\Alex\Documents\Visual Studio 2019\Storage Passwords App\Storage_Admin_App\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Alex\Documents\Visual Studio 2019\Storage Passwords App\Storage_Admin_App\obj\Debug\Storage_Admin_App.csprojAssemblyReference.cache
+C:\Users\Alex\Documents\Visual Studio 2019\Storage Passwords App\Storage_Admin_App\obj\Debug\MainWindow.g.cs
+C:\Users\Alex\Documents\Visual Studio 2019\Storage Passwords App\Storage_Admin_App\obj\Debug\Windows\Create.g.cs
+C:\Users\Alex\Documents\Visual Studio 2019\Storage Passwords App\Storage_Admin_App\obj\Debug\Windows\UsersInfo.g.cs
+C:\Users\Alex\Documents\Visual Studio 2019\Storage Passwords App\Storage_Admin_App\obj\Debug\Windows\WorkAreas.g.cs
+C:\Users\Alex\Documents\Visual Studio 2019\Storage Passwords App\Storage_Admin_App\obj\Debug\App.g.cs
+C:\Users\Alex\Documents\Visual Studio 2019\Storage Passwords App\Storage_Admin_App\obj\Debug\Storage_Admin_App_Content.g.cs
+C:\Users\Alex\Documents\Visual Studio 2019\Storage Passwords App\Storage_Admin_App\obj\Debug\Storage_Admin_App_MarkupCompile.cache
+C:\Users\Alex\Documents\Visual Studio 2019\Storage Passwords App\Storage_Admin_App\obj\Debug\Storage_Admin_App_MarkupCompile.lref
+C:\Users\Alex\Documents\Visual Studio 2019\Storage Passwords App\Storage_Admin_App\obj\Debug\MainWindow.baml
+C:\Users\Alex\Documents\Visual Studio 2019\Storage Passwords App\Storage_Admin_App\obj\Debug\Windows\Create.baml
+C:\Users\Alex\Documents\Visual Studio 2019\Storage Passwords App\Storage_Admin_App\obj\Debug\Windows\UsersInfo.baml
+C:\Users\Alex\Documents\Visual Studio 2019\Storage Passwords App\Storage_Admin_App\obj\Debug\Windows\WorkAreas.baml
+C:\Users\Alex\Documents\Visual Studio 2019\Storage Passwords App\Storage_Admin_App\obj\Debug\Storage_Admin_App.g.resources
+C:\Users\Alex\Documents\Visual Studio 2019\Storage Passwords App\Storage_Admin_App\obj\Debug\Storage_Admin_App.Properties.Resources.resources
+C:\Users\Alex\Documents\Visual Studio 2019\Storage Passwords App\Storage_Admin_App\obj\Debug\Storage_Admin_App.csproj.GenerateResource.cache
+C:\Users\Alex\Documents\Visual Studio 2019\Storage Passwords App\Storage_Admin_App\obj\Debug\Storage_Admin_App.csproj.CoreCompileInputs.cache
+C:\Users\Alex\Documents\Visual Studio 2019\Storage Passwords App\Storage_Admin_App\obj\Debug\Storage_Admin_App.csproj.CopyComplete
+C:\Users\Alex\Documents\Visual Studio 2019\Storage Passwords App\Storage_Admin_App\obj\Debug\Storage_Admin_App.exe
+C:\Users\Alex\Documents\Visual Studio 2019\Storage Passwords App\Storage_Admin_App\obj\Debug\Storage_Admin_App.pdb
+C:\Users\Alex\Documents\Visual Studio 2019\Storage Passwords App\Storage_Admin_App\obj\Debug\Windows\Register.g.cs
+C:\Users\Alex\Documents\Visual Studio 2019\Storage Passwords App\Storage_Admin_App\obj\Debug\Windows\Register.baml

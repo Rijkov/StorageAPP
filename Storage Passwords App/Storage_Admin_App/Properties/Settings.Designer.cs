@@ -33,5 +33,16 @@ namespace Storage_Admin_App.Properties {
                 return ((string)(this["StorageDBConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\Data\\Storage_" +
+            "DB.mdf;Integrated Security=True")]
+        public string Storage_DBConnectionString {
+            get {
+                return ((string)(this["Storage_DBConnectionString"]));
+            }
+        }
     }
 }

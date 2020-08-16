@@ -83,10 +83,16 @@
     </ApplicationDefinition>
     <Compile Include="Model\Connection.cs" />
     <Compile Include="Model\DeleteRecord.cs" />
+    <Compile Include="Model\EditRecord.cs" />
+    <Compile Include="Model\Insert.cs" />
     <Compile Include="Model\ReadFromDatabase.cs" />
+    <Compile Include="Model\UsersSession.cs" />
     <Compile Include="Model\WorkArea.cs" />
     <Compile Include="Windows\Create.xaml.cs">
       <DependentUpon>Create.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\Register.xaml.cs">
+      <DependentUpon>Register.xaml</DependentUpon>
     </Compile>
     <Compile Include="Windows\UsersInfo.xaml.cs">
       <DependentUpon>UsersInfo.xaml</DependentUpon>
@@ -107,6 +113,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="Windows\Create.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\Register.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
